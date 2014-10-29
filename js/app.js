@@ -23,6 +23,11 @@ myApp.config(function($routeProvider) {
           templateUrl : 'partials/checks.html',
           controller  : 'checksController'
       })
+      .otherwise({
+        redirectTo: '/',
+        templateUrl: 'partials/home.html',
+          controller  : 'mainController'
+      });
   });
 
 myApp.controller('mainController',function($scope){
