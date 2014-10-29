@@ -7,7 +7,7 @@ var myApp = angular.module('myApp',[
 myApp.config(function($routeProvider) {
   $routeProvider
       // route for the home page
-      .when('/', {
+      .when('/home', {
           templateUrl : 'partials/home.html',
           controller  : 'mainController'
       })
