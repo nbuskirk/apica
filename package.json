@@ -1,19 +1,16 @@
 {
-  "name": "apica",
-  "version": "1.0.0",
-  "description": "",
+  "name": "Apica-US WPM Angular",
+  "version": "0.0.1a",
+  "description": "Apica WPM and Check Management - Angular style!",
   "main": "js/app.js",
   "dependencies": {
     "angular": "~1.3.0",
     "angular-route":"~1.3.0",
     "bootstrap":"~3.2.0",
-    "jquery":"~2.1",
-    "http-server": "^0.6.1"
+    "jquery":"~2.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -a localhost -p 8000 -c-1"
   },
   "author": "Nathan Buskirk",
-  "license": "ISC"
+  "license": "CC-NCDCi"
 }
