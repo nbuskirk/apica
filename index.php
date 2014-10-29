@@ -12,6 +12,7 @@
 <div class="container" >
   <?php include('partials/navigation.inc'); ?>
   <div ng-view></div>
+  <?php include('partials/footer.inc'); ?>
 </div>
 <!-- end main application container -->
 
