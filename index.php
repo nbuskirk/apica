@@ -1,13 +1,12 @@
 <!doctype html>
-<html lang="en" >
+<html lang="en" ng-app="myApp">
 <head>
   <meta charset="utf-8">
   <title>Apica</title>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="css/app.css">
 </head>
-<body ng-app="myApp">
-
+<body>
 
 <!-- Main application template, main container start -->
 <div class="container" >
