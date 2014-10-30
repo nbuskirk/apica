@@ -1,4 +1,8 @@
 <!-- checks.html -->
-<div class="jumbotron text-center">
-  <p>{{ controller_name }}</p>
+<div class="jumbotron">
+  <p>Recent Checks</p>
+  <ul class='list-group'>
+      <input type="search" class='form-control' ng-model="q" placeholder="filter checks..." />
+      <li class="list-group-item" ng-repeat="check in checks | filter:q as results"><a href="#/checks/{{check.id}}">{{check.name}}</a></li>
+  </ul>
 </div>
