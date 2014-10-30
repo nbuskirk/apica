@@ -4,6 +4,18 @@ var myApp = angular.module('myApp',[
   'ngRoute'
 ]);
 
+myApp.factory('SessionService', function($q, $http) {
+  var service = {
+    user_id: null,
+    getCurrentUser: function() {
+      debugger; // Set the debugger inside
+                // this function
+      return service.user_id;
+    }
+  }
+    return service;
+});
+
 myApp.config(function($routeProvider) {
   $routeProvider
       // route for the home page
