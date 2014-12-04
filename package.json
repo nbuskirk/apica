@@ -1,16 +1,21 @@
 {
-  "name": "Apica-US WPM Angular",
-  "version": "0.0.1a",
-  "description": "Apica WPM and Check Management - Angular style!",
+  "name": "api-admin",
+  "version": "0.0.1-4",
+  "description": "api-admin",
   "main": "js/app.js",
   "dependencies": {
-    "angular": "~1.3.0",
-    "angular-route":"~1.3.0",
-    "bootstrap":"~3.2.0",
-    "jquery":"~2.1"
+    "body-parser": "^1.9.2",
+    "express": "^4.10.1",
+    "mongoose": "^3.8.18",
+    "morgan": "^1.4.1"
   },
   "scripts": {
+    "start": "node server.js"
   },
   "author": "Nathan Buskirk",
-  "license": "CC-NCDCi"
+  "license": "CC-NCDCi",
+  "subdomain": "api-admin",
+  "engines": {
+    "node": "0.10.x"
+  }
 }
